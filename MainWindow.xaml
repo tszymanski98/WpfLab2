@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfLab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLab2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Click="markabaton" Content="MARKA" HorizontalAlignment="Left" Height="40" Margin="150,110,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button Click="silnikbaton" Content="SILNIK" HorizontalAlignment="Left" Height="40" Margin="300,110,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label Name="cena" Content="CENA" HorizontalAlignment="Left" Height="40" Margin="500,110,0,0" VerticalAlignment="Top" Width="201"/>
+
+    </Grid>
+</Window>
