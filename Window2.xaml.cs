@@ -11,5 +11,10 @@ namespace WpfLab2
         {
             InitializeComponent();
         }
+
+        private void powrot(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

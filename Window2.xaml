@@ -6,7 +6,24 @@
         xmlns:local="clr-namespace:WpfLab2"
         mc:Ignorable="d"
         Title="Window2" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+	<Grid>
+		<RadioButton Content="Diesel" HorizontalAlignment="Left" Margin="140,100,0,0" VerticalAlignment="Top"/>
+		<RadioButton Content="Benzyna" HorizontalAlignment="Left" Margin="140,115,0,0" VerticalAlignment="Top"/>
+		<RadioButton Content="Gaz" HorizontalAlignment="Left" Margin="140,130,0,0" VerticalAlignment="Top"/>
+		<RadioButton Content="Hybryda" HorizontalAlignment="Left" Margin="140,145,0,0" VerticalAlignment="Top"/>
+
+		<Label Content="Cena" HorizontalAlignment="Left" Margin="504,0,0,0" VerticalAlignment="Center"/>
+		<Label Content="cena" HorizontalAlignment="Left" Margin="504,225,0,0" VerticalAlignment="Top" BorderBrush="Black" BorderThickness="0.5"/>
+
+		<Label Content="Moc" HorizontalAlignment="Left" Margin="140,280,0,0" VerticalAlignment="Top"/>
+		<ComboBox x:Name="moc" HorizontalAlignment="Left" Margin="140,311,0,0" VerticalAlignment="Top" Width="120">
+			<ComboBoxItem Content="100HP"></ComboBoxItem>
+			<ComboBoxItem Content="240HP"></ComboBoxItem>
+			<ComboBoxItem Content="360HP"></ComboBoxItem>
+			<ComboBoxItem Content="420HP"></ComboBoxItem>
+		</ComboBox>
+
+		<Button Click="powrot" Content="POWRÓT" HorizontalAlignment="Left" Height="40" Margin="600,311,0,0" VerticalAlignment="Top" Width="80"/>
+
+	</Grid>
 </Window>

@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:WpfLab2"
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
+
     <Grid>
         <RadioButton Content="Fiat" HorizontalAlignment="Left" Margin="100,70,0,0" VerticalAlignment="Top"/>
         <RadioButton Content="Ford" HorizontalAlignment="Left" Margin="100,85,0,0" VerticalAlignment="Top"/>
@@ -13,11 +14,11 @@
         <RadioButton Content="Koenigsegg" HorizontalAlignment="Left" Margin="100,55,0,0" VerticalAlignment="Top"/>
         <RadioButton Content="Toyota" HorizontalAlignment="Left" Margin="100,115,0,0" VerticalAlignment="Top"/>
 
-        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="100,180,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="100,195,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="100,210,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="100,225,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="100,240,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Radio" HorizontalAlignment="Left" Margin="100,180,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Ogrzewanie" HorizontalAlignment="Left" Margin="100,195,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Uchwyt na kubek" HorizontalAlignment="Left" Margin="100,210,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Płyta z muzyczką z Initial D" HorizontalAlignment="Left" Margin="100,225,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Nitro" HorizontalAlignment="Left" Margin="100,240,0,0" VerticalAlignment="Top"/>
 
         <Label Content="Marka" HorizontalAlignment="Left" Margin="100,30,0,0" VerticalAlignment="Top" Width="80"/>
         <Label Content="Wyposażenie" HorizontalAlignment="Left" Margin="100,154,0,0" VerticalAlignment="Top" Width="80"/>
@@ -26,7 +27,8 @@
         <TextBox HorizontalAlignment="Left" Margin="100,326,0,0" Text="uwu" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" BorderThickness="2"/>
 
         <Button Click="powrot" Content="POWRÓT" HorizontalAlignment="Left" Height="40" Margin="600,311,0,0" VerticalAlignment="Top" Width="80"/>
-        
+
         <Label Content="Cena" HorizontalAlignment="Left" Margin="504,0,0,0" VerticalAlignment="Center"/>
+        <Label Content="cena" HorizontalAlignment="Left" Margin="504,225,0,0" VerticalAlignment="Top" BorderBrush="Black" BorderThickness="0.5"/>
     </Grid>
 </Window>
