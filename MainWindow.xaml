@@ -11,7 +11,7 @@
         <Button Click="silnikbaton" Content="SILNIK" HorizontalAlignment="Left" Height="40" Margin="300,110,0,0" VerticalAlignment="Top" Width="80"/>
 		
         <Label  Content="CENA" HorizontalAlignment="Left" Height="29" Margin="500,121,0,0" VerticalAlignment="Top" Width="45"/>
-        <Label Name="price" Content="0" HorizontalAlignment="Left" Height="40" Margin="500,155,0,0" VerticalAlignment="Top" Width="201" BorderBrush="Black" BorderThickness="0.5"/>
+        <Label x:Name="label_cena" Content="0" HorizontalAlignment="Left" Height="40" Margin="500,155,0,0" VerticalAlignment="Top" Width="201" BorderBrush="Black" BorderThickness="0.5"/>
 
     </Grid>
 </Window>

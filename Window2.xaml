@@ -7,16 +7,16 @@
         mc:Ignorable="d"
         Title="Window2" Height="450" Width="800">
 	<Grid>
-		<RadioButton Content="Diesel" HorizontalAlignment="Left" Margin="140,100,0,0" VerticalAlignment="Top"/>
-		<RadioButton Content="Benzyna" HorizontalAlignment="Left" Margin="140,115,0,0" VerticalAlignment="Top"/>
-		<RadioButton Content="Gaz" HorizontalAlignment="Left" Margin="140,130,0,0" VerticalAlignment="Top"/>
-		<RadioButton Content="Hybryda" HorizontalAlignment="Left" Margin="140,145,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="dizrad" Content="Diesel" HorizontalAlignment="Left" Margin="140,100,0,0" VerticalAlignment="Top" Checked="diesel_checked" Unchecked="diesel_unchecked"/>
+        <RadioButton x:Name="benrad" Content="Benzyna" HorizontalAlignment="Left" Margin="140,115,0,0" VerticalAlignment="Top" Checked="benzyna_checked" Unchecked="benzyna_unchecked"/>
+        <RadioButton x:Name="gazrad" Content="Gaz" HorizontalAlignment="Left" Margin="140,130,0,0" VerticalAlignment="Top" Checked="gaz_checked" Unchecked="gaz_unchecked"/>
+		<RadioButton x:Name="hybrad" Content="Hybryda" HorizontalAlignment="Left" Margin="140,145,0,0" VerticalAlignment="Top" Checked="hybryda_checked" Unchecked="hybryda_unchecked"/>
 
 		<Label Content="Cena" HorizontalAlignment="Left" Margin="504,0,0,0" VerticalAlignment="Center"/>
-		<Label Content="cena" HorizontalAlignment="Left" Margin="504,225,0,0" VerticalAlignment="Top" BorderBrush="Black" BorderThickness="0.5"/>
+        <Label x:Name="label_cena"  HorizontalAlignment="Left" Margin="504,225,0,0" VerticalAlignment="Top" BorderBrush="Black" BorderThickness="0.5"/>
 
 		<Label Content="Moc" HorizontalAlignment="Left" Margin="140,280,0,0" VerticalAlignment="Top"/>
-		<ComboBox x:Name="moc" HorizontalAlignment="Left" Margin="140,311,0,0" VerticalAlignment="Top" Width="120">
+		<ComboBox x:Name="moc" HorizontalAlignment="Left" Margin="140,311,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="moc_SelectionChanged">
 			<ComboBoxItem Content="100HP"></ComboBoxItem>
 			<ComboBoxItem Content="240HP"></ComboBoxItem>
 			<ComboBoxItem Content="360HP"></ComboBoxItem>
